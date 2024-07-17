@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Application</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+    <header style="background-color: rgba(51, 51, 51, 0.7); color: #fff; padding: 10px 0; position: fixed; width: 100%; top: 0; z-index: 1000;">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
+            <h1 style="font-size: 24px;">FlightApp</h1>
+            <nav>
+                <ul style="list-style: none; margin: 0; padding: 0; display: flex;">
+                    <li style="margin-left: 20px;"><a href="#hero" style="color: #fff; text-decoration: none; transition: color 0.3s;">Home</a></li>
+                    <li style="margin-left: 20px;"><a href="#about" style="color: #fff; text-decoration: none; transition: color 0.3s;">About</a></li>
+                    <li style="margin-left: 20px;"><a href="#features" style="color: #fff; text-decoration: none; transition: color 0.3s;">Features</a></li>
+                    <li style="margin-left: 20px;"><a href="#contact" style="color: #fff; text-decoration: none; transition: color 0.3s;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero" style="background: url(' https://imgbox.com/8c4WTV6S') no-repeat center center/cover; color: #fff; height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; position: relative;">
+        <div style="max-width: 600px; position: relative; z-index: 1;">
+            <h1 style="font-size: 48px; margin: 0 0 20px;">FlightApp</h1>
+            <p style="font-size: 18px; margin: 0 0 40px;">Your gateway to the world's best flight deals.</p>
+            <form action="#" style="display: flex; flex-direction: column;">
+                <input type="text" placeholder="From" required style="padding: 10px; margin: 5px 0; font-size: 16px; border: none; border-radius: 5px;">
+                <input type="text" placeholder="To" required style="padding: 10px; margin: 5px 0; font-size: 16px; border: none; border-radius: 5px;">
+                <input type="date" placeholder="Departure Date" required style="padding: 10px; margin: 5px 0; font-size: 16px; border: none; border-radius: 5px;">
+                <input type="date" placeholder="Return Date" style="padding: 10px; margin: 5px 0; font-size: 16px; border: none; border-radius: 5px;">
+                <button type="submit" style="padding: 10px; margin: 5px 0; font-size: 16px; border: none; border-radius: 5px; background-color: #e8491d; color: #fff; cursor: pointer;">Search Flights</button>
+            </form>
+            <a href="https://www.deployed-project-url.com" style="display: inline-block; padding: 10px 20px; margin-top: 20px; font-size: 16px; color: #fff; background-color: #1e90ff; border: none; border-radius: 5px; text-decoration: none; cursor: pointer;">Go to Application</a>
+        </div>
+    </section>
+    <section id="about" style="background-color: #fff; text-align: center; padding: 60px 20px;">
+        <div>
+            <h2 style="font-size: 32px; margin-bottom: 20px;">About Us</h2>
+            <img src="https://imgbox.com/TWgTDUBm" alt="About Us" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+            <p style="font-size: 18px; color: #333;">
+                <div>
+
+                    <h2 style="font-size: 32px; margin-bottom: 20px;">Inspiration</h2>
+            <p style="font-size: 18px; color: #333; max-width: 800px; margin: 0 auto;">The inspiration for FlightApp came from the challenges and frustrations that many travelers face when booking flights. As frequent travelers ourselves, we encountered issues such as:</p>
+            <ul style="font-size: 18px; color: #333; text-align: left; max-width: 800px; margin: 20px auto;">
+                <li style="margin-bottom: 10px;"><strong>Complex Booking Processes</strong>: Many flight booking websites are cluttered and difficult to navigate, making the process more stressful than it needs to be.</li>
+                <li style="margin-bottom: 10px;"><strong>Finding the Best Deal</strong>: Scouring multiple sites to find the best prices can be time-consuming and often yields inconsistent results.</li>
+                <li style="margin-bottom: 10px;"><strong>Personalized Travel Needs</strong>: There is a lack of personalized recommendations that cater to individual travel preferences and needs.</li>
+            </ul>
+                
+            </div>
+        </p>
+        </div>
+    </section>
+    <section id="features" style="background-color: #fff; text-align: center; padding: 60px 20px;">
+        <div>
+            <h2 style="font-size: 32px; margin-bottom: 20px;">Features</h2>
+            <div class="feature" style="margin-bottom: 40px;">
+                <img src="https://via.placeholder.com/600x400" alt="Feature 1" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+                <h3 style="font-size: 24px; margin-bottom: 10px;">Flight Search</h3>
+                <p style="font-size: 16px; color: #666;">Explore a wide range of flights with our comprehensive search functionality.</p>
+            </div>
+            <div class="feature" style="margin-bottom: 40px;">
+                <img src="https://imgbox.com/8c4WTV6S" alt="Feature 2" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+                <h3 style="font-size: 24px; margin-bottom: 10px;">Flight Booking</h3>
+                <p style="font-size: 16px; color: #666;">Get personalized recommendations based on your travel preferences.</p>
+            </div>
+            <div class="feature" style="margin-bottom: 40px;">
+                <img src="https://imgbox.com/8c4WTV6S" alt="Feature 3" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+                <h3 style="font-size: 24px; margin-bottom: 10px;">User Experience</h3>
+                <p style="font-size: 16px; color: #666;">Track your flight status in real-time with our live updates.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" style="background-color: #fff; text-align: center; padding: 60px 20px;">
+        <div>
+            <h2 style="font-size: 32px; margin-bottom: 20px;">Contact Us</h2>
+            <img src="https://imgbox.com/TWgTDUBm" alt="Contact Us" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+            <p style="font-size: 18px; color: #333;">If you have any questions or need assistance, our support team is here to help. Reach out to us via phone, email, or our online contact form.</p>
+        </div>
+    </section>
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px 0; position: fixed; width: 100%; bottom: 0;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <p style="margin: 0;">Connect with us:</p>
+            <ul style="list-style: none; padding: 0; margin: 10px 0;">
+                <li style="margin: 10px 0;"><a href="https://github.com/chudistar01" target="_blank" style="color: #1e90ff; text-decoration: none; transition: color 0.3s;">GitHub Profile</a></li>
+                <li style="margin: 10px 0;"><a href="https://twitter.com/Christi11742481" target="_blank" style="color: #1e90ff; text-decoration: none; transition: color 0.3s;">Twitter Profile</a></li>
+                <li style="margin: 10px 0;"><a href="https://github.com/your-github-username/flight-app-repo" target="_blank" style="color: #1e90ff; text-decoration: none; transition: color 0.3s;">GitHub Repository</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
